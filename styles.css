@@ -1,0 +1,123 @@
+@media screen  and (max-width:767px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 300px);
+        grid-template-areas: "a" "b" "c" "d" "e" "f";
+        gap: 30px;
+    }
+    
+}
+section{
+    border: 30px ridge black;
+}
+
+section:nth-last-of-type(1){
+    grid-area: a;
+}
+section:nth-last-of-type(2){
+    grid-area: b;
+}
+section:nth-last-of-type(3){
+    grid-area: c;
+}
+section:nth-last-of-type(4){
+    grid-area: d;
+}
+section:nth-last-of-type(5){
+    grid-area: e;
+}
+section:nth-last-of-type(6){
+    grid-area: f;
+}
+section:nth-last-of-type(7){
+    grid-area: g;
+}
+
+@media screen  and (min-width:768px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        grid-template-areas: "a a" "b c" "d e" "f f";
+        gap: 30px;
+    }
+}
+   
+
+section{
+    border: 30px ridge rgb(105, 11, 11);
+}
+
+section:nth-last-of-type(1){
+    grid-area: a;
+}
+section:nth-last-of-type(2){
+    grid-area: b;
+}
+section:nth-last-of-type(3){
+    grid-area: c;
+}
+section:nth-last-of-type(4){
+    grid-area: d;
+}
+section:nth-last-of-type(5){
+    grid-area: e;
+}
+section:nth-last-of-type(6){
+    grid-area: f;
+}
+/* section:nth-last-of-type(7){
+    grid-area: g;
+} */
+
+
+@media screen and (min-width:1080px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        grid-template-rows: repeat(5, 400px);
+        grid-template-areas:  "f e e d" "c c c b" "a a a b";
+        gap: 30px;
+    }
+    
+}
+
+section{
+    border: 30px ridge rgb(39, 48, 136);
+}
+
+section:nth-last-of-type(1){
+    grid-area: a;
+}
+section:nth-last-of-type(2){
+    grid-area: b;
+}
+section:nth-last-of-type(3){
+    grid-area: c;
+}
+section:nth-last-of-type(4){
+    grid-area: d;
+}
+section:nth-last-of-type(5){
+    grid-area: e;
+}
+section:nth-last-of-type(6){
+    grid-area: f;
+}
+section:nth-last-of-type(7){
+    grid-area: g;
+}
+section:nth-last-of-type(8){
+    grid-area: h;
+}
+section:nth-last-of-type(9){
+    grid-area: i;
+}
+section:nth-last-of-type(10){
+    grid-area: j;
+}
+section:nth-last-of-type(11){
+    grid-area: k;
+}
+
