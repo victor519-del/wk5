@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION BAR</title>
+    <style>
+
+        body{
+            margin: 1%;
+        }
+        .navbar a{
+            background-color: rgb(17, 17, 145);
+            overflow: hidden;
+        }
+    
+        .navbar a {
+            float: inline-end;
+            color: black;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: solid;
+            font-size: 17px;
+            border-bottom: 50px;
+        }
+
+        .navbar a:hover {
+            background-color: rgb(17, 109, 109);
+            color: aliceblue;
+        }
+
+        img{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(1, 600px);
+            grid-template-areas: "a b c d";
+            gap: 10px;
+        }
+        
+        img:nth-last-of-type(1){
+            grid-area: a;
+        }
+        img:nth-last-of-type(2){
+            grid-area: b;
+        }
+        img:nth-last-of-type(3){
+            grid-area: c;
+        }
+        img:nth-last-of-type(4){
+            grid-area: d;
+        }
+ </style>
+</head>
+
+
+
+<body>
+    <div class="navbar">
+        <a class="active "href="http://www.bbc.com/">HOME</a>
+        <a href="http://www.bbc.com/news">NEWS</a>
+        <a href="http://www.bbc.com/sport">SPORTS</a>
+        <a href="http://www.bbc.com/reel">REEL</a>
+        <a href="http://www.bbc.com/worklife">WORKLIFE</a> 
+        <a href="http://www.bbc.com/travel">TRAVEL</a>
+        <a href="http://www.bbc.com/future">FUTURE</a>
+        <a href="http://www.bbc.com/culture">CULTURE</a>
+    </div>
+
+    <main>
+        <img src="./eye.jpg" alt="Eyes">
+        <img src="./download.jpg" alt="main">
+    </main>
+</body>
+</html>

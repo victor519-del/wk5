@@ -6,7 +6,22 @@ main{
     grid-template-areas:"a a a a" "b b b b" "c c c c" "d d d d" "e e e e" "f f f f" "g g g g" "h h h h" "i i i i" "j j j j" "k k k k" "l l l l" "m m m m";
      gap: 30px;
 }
+}
 
+nav{
+    background-color: black; 
+    text-transform: capitalize;
+}
+
+ul{
+    /* height: 10vb; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: italic;
+    font-size: 1em;
+    border-bottom: 10px solid grey;
 }
 
 section{
@@ -61,8 +76,23 @@ main{
     grid-template-areas:"a a a" "b b b " "c c d" "e e f" "g g g" "h i j" "k k l" "m m m ";
      gap: 30px;
 }
-
+nav{
+    background-color: black; 
+    text-transform: capitalize;
 }
+
+ul{
+    height: 10vb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: italic;
+    font-size: 1em;
+    border-bottom: 10px solid grey;
+}
+
+
 section{
     border: 30px ridge black;
 }
@@ -116,11 +146,10 @@ main{
     grid-template-areas:"a a a a" "b b c d" "b b e f" "g h i j" "k l m j";
      gap: 30px;
 }
-
 }
 
 section{
-    border: 30px ridge black;
+    /* border: 30px ridge black; */
 }
 
 section:nth-last-of-type(1){
@@ -163,4 +192,15 @@ section:nth-last-of-type(13){
     grid-area: m;
 }
 
+}
+
+img{
+    height: 250px;
+    width: 300px;
+}
+h1{
+    font-style: italic;
+    /* bottom: 50; */
+    gap: 10%;
+}
 

@@ -1,0 +1,142 @@
+@media screen and (max-width: 767px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        grid-template-areas: "a" "b" "c" "d";
+        gap: 20px;
+
+     }
+     nav{
+        background-color: black;
+        text-transform: capitalize;
+        border-bottom: solid grey 2rem;
+     }
+
+     ul{
+        /* height: 10vb; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1em;
+        border-bottom: 10px grey;
+
+     }
+    li{
+        padding: 3em 0;
+        text-align: center;
+        width: 50px;
+    }
+
+    li:hover{
+        border-bottom: 10px ridge rgb(102, 100, 102);
+    }
+
+
+ 
+    div{
+    background: transparent;
+    border: ridge red;
+
+    }
+    main :nth-child(1){
+    grid-area: a;
+    border-radius: 50px;
+    }
+     main :nth-child(2){
+    grid-area: b;
+    border-radius: 50px;
+    }
+    main :nth-child(3){
+    grid-area: c;
+    border-radius: 50px;
+    }
+    main :nth-child(4){
+    grid-area: d;
+    border-radius: 50px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 300px);
+        grid-template-areas: "a b" "c d";
+        gap: 10px;
+     }
+    
+     nav{
+        background-color: black;
+        text-transform: capitalize;
+     }
+
+     ul{
+        height: 10vb;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1em;
+        border-bottom: 10px grey;
+     }
+    li{
+        padding: 3em 0;
+        text-align: center;
+    }
+
+    li:hover{
+        border-bottom: 10px ridge red;
+    }
+
+
+    div{
+        background: navy;
+    }
+    main :nth-child(1) {
+    grid-area: a;
+    }
+    main :nth-child(2) {
+    grid-area: b;
+    }
+    main :nth-child(3) {
+    grid-area: c;
+    }
+    main :nth-child(4) {
+    grid-area: d;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 600px);
+        grid-template-areas: "a b c d";
+        gap: 10px;
+        }
+        
+        div{
+    border: 10px rigde rgb(17, 62, 187);
+    }
+    main :nth-child(1){
+    grid-area: a;
+    }
+
+    main :nth-child(2){
+    grid-area: b;
+    }
+    main :nth-child(3){
+    grid-area: c;
+    }
+    main :nth-child(4){
+    grid-area: d;
+    }
+}
+ 
+h1{
+    font-size: 10rem;
+    font: 1em sans-serif;
+    
+}

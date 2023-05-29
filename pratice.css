@@ -1,0 +1,42 @@
+.navbar{
+    width: auto;
+    height: 100px;
+   background-color: rgba(224, 37, 37, 0.733);
+   border-bottom: 10px solid #000;
+}
+
+.navbar ul{
+    display: flex;
+    /* background-color: black; */
+    margin: auto;
+    padding: 16px 30px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navbar a:hover{
+    color: rgb(34, 23, 9);
+}
+
+.navbar a{
+    text-decoration-color: rgb(12, 20, 3);
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-style: italic;
+    text-align: center;
+    font-size:larger;
+    text-shadow: #000;
+}
+/* .image{
+    width: 50px;
+    height: 100px;
+} */
+
+.pratice{
+    position: absolute;
+    right: 40px;
+    width: 300px ;
+    /* border: 15px solid black; */
+   padding: 10px;
+
+}
+    
